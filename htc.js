@@ -73,7 +73,8 @@ function loadImage() {
     function write(msg) {
         var p = document.createElement('p');
         p.innerHTML = msg;
-        document.body.appendChild(p);
+        //document.body.appendChild(p);
+        $(".log").append(p);
     }
 }
 
