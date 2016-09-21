@@ -26,7 +26,7 @@ function encodeImage() {
     }
 
 
-    saveByteArray([testArr], "abc.jpg");
+    saveByteArray([testArr], "x.jpg");
     //saveIntoTextArea(jpegImageData);
     //   fs.writeFileSync("C:\\imagetest\\grumpycat.jpg", jpegImageData.data);
 }
